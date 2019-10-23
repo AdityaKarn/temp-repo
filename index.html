@@ -71,7 +71,7 @@
       <div class="event-landing-page">
         <h1 class="title-event">Glimpses</h1>
       </div>
-      <div class="gallery-intro-content">
+      <div class="gallery-intro-content hide-mobile">
         <div class="images">
           <a
             href="img/1.jpg"
@@ -132,6 +132,18 @@
         </div>
       </div>
     </div>
+    <div class="container slider-flex show-mobile">
+      <div class="slider-container" data-simple-slider>
+        <img src="img/8.jpg" alt="" />
+        <img src="img/7.jpg" alt="" />
+        <img src="img/6.jpg" alt="" />
+        <img src="img/5.jpg" alt="" />
+      </div>
+    </div>
     <script src="lightbox-plus-jquery.min.js"></script>
+    <script src="slider.min.js"></script>
+    <script>
+      simpleslider.getSlider();
+    </script>
   </body>
 </html>
